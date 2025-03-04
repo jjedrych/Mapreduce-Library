@@ -1,4 +1,4 @@
-Multithreaded MapReduce Library
+# Multithreaded MapReduce Library
 
 ## Synchronization Primitives Used
 ### In threadpool.c
