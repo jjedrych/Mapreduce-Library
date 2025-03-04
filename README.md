@@ -9,7 +9,7 @@
 - **mutext locks:** Partitions->mutex_t
 
 ## Partition Implementation
-- a custom threadpool library was created for the purposes of implementing this assignment
+- Implemented with a custom Threadpool library
 - MR_Run is run specifically to start up the threadpool and begin running our map jobs priorty based on job size.
 - Emit is actually responsible for creating the partitions and finding in which order they belong in (uses a has function that was provided in the assignment description) 
 - once map jobs are completed we move on to the reduce jobs, priorty based on partition size. At this point we wait till reduction of the paritions is completed
